@@ -9,26 +9,26 @@
 
 A plugin for pixel classification using [XGBoost](https://xgboost.readthedocs.io/en/stable/), inspired by [Digital Sreeni's Youtube video](https://www.youtube.com/watch?v=yqkNslkzLk4).
 
-Note: This plugin is work-in-progress. Check out the github issues to see what's currently being worked on.
+Note: This plugin is work-in-progress. Check out the [github issues](https://github.com/haesleinhuepf/napari-xgboost/issues) to see what's currently being worked on.
 
 ## Usage
 
 Load an example image into napari. Add a Labels layer by clicking on this button:
 
-![img.png](docs/images/img.png)
+![img.png](https://github.com/haesleinhuepf/napari-xgboost/raw/main/docs/images/img.png)
 
 Then, draw a sparse annotation on the image. Try to draw thin lines on background and foreground, e.g. like this:
 
-![img_1.png](docs/images/img_1.png)
+![img_1.png](https://github.com/haesleinhuepf/napari-xgboost/raw/main/docs/images/img_1.png)
 
 Then click the menu `Layers > Segment > Train Pixel Classifier (XGBoost)`.
 
-![img_2.png](docs/images/img_2.png)
+![img_2.png](https://github.com/haesleinhuepf/napari-xgboost/raw/main/docs/images/img_2.png)
 
 In the dialog, select the original image and the labels layer. Also enter a filename where the model should be saved. 
 Afterwards, click on `Run` to explore the result.
 
-![img_3.png](docs/images/img_3.png)
+![img_3.png](https://github.com/haesleinhuepf/napari-xgboost/raw/main/docs/images/img_3.png)
 
 ## Installation
 
